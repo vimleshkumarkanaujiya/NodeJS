@@ -1,0 +1,16 @@
+###
+GET http://localhost:3000
+
+###
+POST http://localhost:3000/api/info
+Content-Type: application/json
+
+{
+    "information":"my name is Vimlesh"
+}
+
+###
+PUT http://localhost:3000/api/?name=Vimlesh&surname=Kanaujiya
+
+###
+DELETE http://localhost:3000/delete/99/kanaujiya
